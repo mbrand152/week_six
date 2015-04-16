@@ -1,0 +1,29 @@
+body, html, main {
+	/* important */
+	height: 100%;
+}
+ 
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("http://images.fineartamerica.com/images-medium-large-5/canadian-mountain-range-kayleigh-semeniuk.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("http://images.fineartamerica.com/images-medium-large-5/two-medicine-mountain-kayleigh-semeniuk.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/02/Water-Landscapes%EF%BC%8Dl.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("http://hqwallbase.com/images/big/landscapes-road-wallpaper-[3].jpg");
+}
+ 
+.cd-scrolling-bg {
+	min-height: 100%;
+}
